@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "smet"
+version = "0.1.2"
+description = "A Search Package"
+authors = ["CP"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.group.dev.dependencies]
+myst-nb = "^0.17.1"
+sphinx-autoapi = "^2.0.0"
+sphinx-rtd-theme = "^1.1.1"
+pytest = "^7.2.0"
+
+
+[tool.poetry.group.dev2.dependencies]
+pandas = "^1.5.2"
+pillow = "^9.3.0"
+opencv-python = "^4.6.0.66"
+matplotlib = "^3.6.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
